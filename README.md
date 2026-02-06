@@ -160,6 +160,10 @@ sudo systemctl start nginx
 > 💡 Destination port(기본 4789)는 “미러링 패킷을 Collector로 전달할 때 사용되는 전달 포트(캡슐화)”로 이해하시면 됩니다.  
 > 이 값 자체가 ‘원본 HTTP 트래픽의 포트’(80)와는 무관합니다.
 
+> 💡 **참고**  
+> 본 데모에서는 단일 VM을 Source로 사용하지만, 실제로는 **여러 VM의 NIC를  vTAP Source로 동시에 지정**하여 동일 Collector로 트래픽을 미러링할 수 있습니다.
+
+
 Review + Create → Create
 
 ---
