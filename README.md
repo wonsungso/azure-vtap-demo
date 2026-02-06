@@ -106,6 +106,8 @@ sudo systemctl start nginx
 
 - RDP 접속 후 Wireshark 설치
 
+> 💡 트래픽 미러링의 목적지인 Collector VM 은 Port 4789의 트래픽을 허용해야합니다. 
+> 필요한 경우 UDP 4789 Rule을 추가해주세요.
 ---
 
 ## 3️⃣ Application Gateway 구성
